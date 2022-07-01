@@ -33,7 +33,7 @@ namespace naakkormegint
             string HWID;
             HWID = System.Security.Principal.WindowsIdentity.GetCurrent().User.Value;
             WebClient wb = new WebClient();
-            string HWIDLIST = wb.DownloadString("https://pastebin.com/raw/KKx3Ht6z");
+            string HWIDLIST = wb.DownloadString("https://pastebin.com/raw/zy8F4Gev");
             if (HWIDLIST.Contains(HWID))
             {
                 MessageBox.Show("Successfully authenticated.");
